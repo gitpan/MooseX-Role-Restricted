@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               MooseX-Role-Restricted
-version:            1.00
+version:            1.01
 abstract:           ~
 author:
     - Graham Barr <gbarr@pobox.com>
@@ -9,7 +9,7 @@ distribution_type:  module
 configure_requires:
     ExtUtils::MakeMaker:  0
 requires:
-    Moose:       0
+    Moose:       0.72
     Test::More:  0
 no_index:
     directory:
