@@ -8,10 +8,10 @@ WriteMakefile(
   AUTHOR       => 'Graham Barr <gbarr@pobox.com>',
   VERSION_FROM => 'lib/MooseX/Role/Restricted.pm',
   PL_FILES     => {},
-  PREREQ_PM => {
-    'Moose'      => '0.72',
-    'Test::More' => 0,
-    },
-  dist     => {COMPRESS => 'gzip -9f', SUFFIX => 'gz',},
+  PREREQ_PM    => {
+    'Moose'               => '0.90',
+    'Test::More'          => 0,
+    'Attribute::Handlers' => 0.88,
+  },
 );
 
